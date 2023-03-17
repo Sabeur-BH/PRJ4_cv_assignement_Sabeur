@@ -68,11 +68,18 @@ body {
 	padding-left: 11%;
 
   }
+  #PositionTextEducation{
+	margin-top: 20px;
+	padding-left: 11%;
+	}
 
   .biography-logo {
 	padding-left: 12%;
 	padding-top: 8%;
   }
- .text-name {
+ .text-year {
+	padding-left: 20%;
+ }
+ .text-video {
 	padding-left: 20%;
  }
