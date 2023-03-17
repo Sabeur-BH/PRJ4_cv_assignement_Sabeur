@@ -1,0 +1,78 @@
+/* Use this file to use your own styles*/
+
+/* Import declaration to use Google Fonts - check https://fonts.google.com/ for details */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+/* Styles for the body */
+
+body {
+	font-family: Lato, "Open Sans", Roboto, "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #202030;
+	background-color: #f8f8fc;
+}
+
+/* Styles for custom classes in the document. (There are more, try to find them out!) */
+
+.resume-header {
+    background-image: linear-gradient(to top, rgb(83, 144, 200), rgb(136, 51, 136));
+}
+
+.resume-main {
+	background-image: linear-gradient(to right, rgb(83, 144, 200), rgb(136, 51, 136));
+	background-color: #9488dd;
+}
+
+.resume-aside {
+	background-image: linear-gradient(to left, rgb(83, 144, 200), rgb(136, 51, 136));
+	background-color: #9488dd;
+}
+
+/* Styles for lists in the document */
+
+.biography-details li::before, .skill-list li::before {
+	content: ">";
+	font-family: "Sofia", sans-serif;
+	font-weight: 800;
+	display: inline-block;
+	width: 1em;
+	margin-left: -1em;
+}
+
+.biography-details li::before {
+	color: #EE7623;
+}
+
+.biography-details li, .skill-list li {
+	padding-left: 1em;
+}
+
+/* Styles for contact icons */
+
+.contact-icon {
+	height: 1em;
+	flex-basis: 1.4em;
+}
+
+
+.text-special-font {
+	font-family: "Sofia", sans-serif;
+}
+.box-text {
+	border-radius: 25px;
+  }
+ p:hover .h6:hover, a:hover {
+	background-color: rgb(127, 55, 122);
+  }
+  #PositionText {
+	margin-top: 20px;
+	padding-left: 11%;
+
+  }
+
+  .biography-logo {
+	padding-left: 12%;
+	padding-top: 8%;
+  }
+ .text-name {
+	padding-left: 20%;
+ }
